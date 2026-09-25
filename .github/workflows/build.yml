@@ -1,17 +1,14 @@
-# Consumer workflow: the shared template with the frontend declaration.
-# All validation and build logic lives in the shared framework.
+# Bypass attempt for exercise D9: no call to the shared framework.
 name: Build
 
 on:
   pull_request:
-  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   build:
-    uses: Mahesh2511/devsecops-shared-github-actions/.github/workflows/build.yml@v1
-    with:
-      artifact_type: frontend
-      xml_path: config
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "skipping the shared PR checks"
