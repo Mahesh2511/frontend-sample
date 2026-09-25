@@ -13,5 +13,4 @@ jobs:
   build:
     uses: Mahesh2511/devsecops-shared-github-actions/.github/workflows/build.yml@v1
     with:
-      artifact_type: mobile
-      xml_path: config
+      artifact_type: frontend
