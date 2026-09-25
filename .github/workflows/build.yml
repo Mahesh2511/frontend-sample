@@ -14,4 +14,4 @@ jobs:
     uses: Mahesh2511/devsecops-shared-github-actions/.github/workflows/build.yml@v1
     with:
       artifact_type: frontend
-      xml_path: ui
+      xml_path: missing-folder
