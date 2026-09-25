@@ -3,6 +3,6 @@
   <locale default="en-US">
     <supported>en-US</supported>
     <supported>de-DE</supported>
-  </locale>
+  <locale>
   <theme>light</theme>
 </settings>
