@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+  <variable name="API_BASE_URL" value="https://api.example.com"/>
+  <variable name="FEATURE_DARK_MODE" value="true"/>
+</environment>
